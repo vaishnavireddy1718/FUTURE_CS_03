@@ -83,6 +83,11 @@ Although the tested API provides mock data intended for development and testing,
 
 ## 📸 Screenshots
 The `/screenshots` folder contains supporting screenshots of the Postman request and response to demonstrate the testing process and findings.
+![Request without Auth](t3.1.jpeg)
+*Figure 1: API request made without authentication
+
+![API Response](t3.2.jpeg)
+*Figure 2: Successful API response without authentication
 
 ## 🏁 Conclusion
 This task highlights the importance of securing APIs against unauthorized access and data exposure. While the tested API is designed for public testing purposes, similar security misconfigurations in real-world applications can result in serious privacy, compliance, and security risks. Implementing proper authentication, authorization, access control, and monitoring mechanisms is essential to ensure robust API security.
